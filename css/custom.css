@@ -1,3 +1,42 @@
 body {
-	background-color: gray;
+	background-color: #d2dae2;
+}
+.navigationBar {
+	list-style-type: none;
+    margin: 0;
+	padding: 20px;
+	background-color: #d2dae2;
+	text-align: center
+	
+}
+
+
+.navBarItem {
+	display: inline;
+}
+
+.footLink{
+	list-style-type: none;
+}
+
+.footerItem{
+	display: list;
+}
+
+li:hover{
+	text-color: #6c5a89;
+}
+
+footer{
+	padding: 70px;
+}
+
+.row{
+	background-color: #03202e;
+}
+
+.logo-image{
+	margin: auto;
+    width: 35%;
+    padding: 10px;
 }

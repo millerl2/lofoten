@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>My Website Project</title>
+    
+    <title>Lofoten, Norway</title>
 
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
@@ -20,14 +20,94 @@
   </head>
   <body>
 
-    <div class="container">
+    <header>
 
-      <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-      </div>
+      <div class="logo-image">
+        <img src="refrence/logo.png" alt="Responsive image" style="align: center">
+      </div>            
 
+      <h1 style= "text-align: center"> Experience the Wonder of Lofoten</h1>
+
+      <ul class= "navigationBar">
+        <li class= "navBarItem"><a href="#">Home</a></li>
+        <li class= "navBarItem"><a href="#">About</a></li>
+        <li class= "navBarItem"><a href="#">Attractions</a></li>
+        <li class= "navBarItem"><a href="#">Events</a></li>
+        <li class= "navBarItem"><a href="#">Gallery</a></li>
+      </ul>
+    </header>
+
+    <div class="jumbotron jumbotron-fluid">
+        <img src="refrence/jumbotronHome.jpg" class="img-fluid" alt="Responsive image" style= 'height: 100%; width: 100%; object-fit: contain'>
     </div>
+
+    <div class="row">
+      <div class="col-md-4">
+          <div class="card" >
+              <div class="card-body">
+                  <h4 class="card-title" style="color: #d2dae2">Experience Beauty</h4>
+                  <p class="card-text" style="color: #d2dae2">Come and explore the culture
+                    and breathtaking views of the
+                    Lofoten Islands, part of Norways
+                    beautiful norhtern
+                    mountains. See the Northern
+                    Lights in full view, taste the
+                    cuisine and even enjoy a refreshing
+                    beer brewed right at
+                    the source of freshness by
+                    Lofotpils brewing company.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+          </div>
+          
+      </div>
+      <div class="col-md-4">
+              <div class="card" >
+                      <img class="card-img-top" src="refrence/galleryLink.jpg" alt="Card image cap">
+                      <div class="card-body">
+                          <a href="#" class="btn btn-primary">Gallery</a>
+                      </div>
+                  </div>
+                  
+      </div>
+      <div class="col-md-4">
+              <div class="card" >
+                      <div class="card-body">
+                          <h4 class="card-title" style="color: #d2dae2">Blog</h4>
+                          <h5 class= "blog-title" style="color: #d2dae2">Worth the Trip</h5>
+                          <p class="card-text" style="color: #d2dae2">“My husband and I went on a trip
+                            to the Islands as a second honeymoon
+                            and loved it. We both love to
+                            kayak, hike and explore the outdoors
+                            so it was perfect for us. And
+                            the views were out of this world.
+                            Highly Recommend going.”
+                            -Sharron Smith</p>
+                          <a href="#" class="btn btn-primary">Posts</a>
+                      </div>
+                  </div>
+          
+      </div>
+    </div>
+
+    <footer>
+      <div class= "container">
+      <ul class= "footLink">
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Newsletter</a></li>
+      </ul>
+
+      <div class="col-lg-6">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
+          <span class="input-group-btn">
+            <button class="btn btn-secondary" type="button">Go!</button>
+          </span>
+        </div>
+        
+      </div>
+      </div>
+    </footer>
 
     <!-- DO NOT EDIT BELOW THIS COMMENT -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
