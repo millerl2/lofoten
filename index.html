@@ -22,22 +22,24 @@
 
     <header>
 
-      <div class="logo-image">
-        <img src="refrence/logo.png" alt="Responsive image" style="align: center">
-      </div>            
+      <div class="grad">
+        <div class="logo-image">
+          <img src="refrence/logo.png" alt="Responsive image">
+        </div>            
 
-      <h1 style= "text-align: center"> Experience the Wonder of Lofoten</h1>
+        <h1 style= "text-align: center"> Experience the Wonder of Lofoten</h1>
 
-      <ul class= "navigationBar">
-        <li class= "navBarItem"><a href="#">Home</a></li>
-        <li class= "navBarItem"><a href="#">About</a></li>
-        <li class= "navBarItem"><a href="#">Attractions</a></li>
-        <li class= "navBarItem"><a href="#">Events</a></li>
-        <li class= "navBarItem"><a href="#">Gallery</a></li>
-      </ul>
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#" style="color:#03202e;">Home</a>
+            <a class="navbar-brand" href="#" style="color:#03202e">About</a>
+            <a class="navbar-brand" href="#" style="color:#03202e">Attractions</a>
+            <a class="navbar-brand" href="#" style="color:#03202e">Events</a>
+            <a class="navbar-brand" href="#" style="color:#03202e">Gallery</a>
+          </nav>
+      </div>
     </header>
 
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid" style= "padding: 0px;">
         <img src="refrence/jumbotronHome.jpg" class="img-fluid" alt="Responsive image" style= 'height: 100%; width: 100%; object-fit: contain'>
     </div>
 
@@ -56,16 +58,18 @@
                     beer brewed right at
                     the source of freshness by
                     Lofotpils brewing company.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <a href="#" class="btn btn-outline-primary" style= "color: #d2dae2; border-radius: 10px; border-color: #d2dae2">Learn More</a>
               </div>
           </div>
           
       </div>
       <div class="col-md-4">
               <div class="card" >
-                      <img class="card-img-top" src="refrence/galleryLink.jpg" alt="Card image cap">
+                      <div class="imageContainer">
+                        <img class="card-img-top" src="refrence/galleryLink.jpg" alt="Card image cap">
+                      </div>
                       <div class="card-body">
-                          <a href="#" class="btn btn-primary">Gallery</a>
+                          <a href="#" class="btn btn-outline-primary" style= "color: #d2dae2; border-radius: 10px; border-color: #d2dae2">Gallery</a>
                       </div>
                   </div>
                   
@@ -83,7 +87,8 @@
                             the views were out of this world.
                             Highly Recommend going.”
                             -Sharron Smith</p>
-                          <a href="#" class="btn btn-primary">Posts</a>
+                            <a href="#" class="btn btn-outline-primary" style= "color: #d2dae2; border-radius: 10px; border-color: #d2dae2">Posts
+                            </a>
                       </div>
                   </div>
           
@@ -91,22 +96,21 @@
     </div>
 
     <footer>
-      <div class= "container">
       <ul class= "footLink">
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">Newsletter</a></li>
+          <li class="footerItem"><a href="#">Contact Us</a></li>
+          <li class="footerItem"><a href="#">Newsletter</a></li>
       </ul>
 
-      <div class="col-lg-6">
-        <div class="input-group">
-          <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
-          <span class="input-group-btn">
-            <button class="btn btn-secondary" type="button">Go!</button>
-          </span>
-        </div>
-        
-      </div>
-      </div>
+      <div class="searchContainer">
+        <nav class="navbar navbar-light bg-light">
+          <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-primary" style= "background-color: #03202e; color: #d2dae2; border-radius: 10px; border-color: #d2dae2" type="submit">Search</button>
+          </form>
+        </nav>
+      </div> 
+
+
     </footer>
 
     <!-- DO NOT EDIT BELOW THIS COMMENT -->

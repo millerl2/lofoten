@@ -1,11 +1,10 @@
 body {
-	background-color: #d2dae2;
+	background-color: black;
 }
 .navigationBar {
 	list-style-type: none;
     margin: 0;
-	padding: 20px;
-	background-color: #d2dae2;
+	padding: 15px;
 	text-align: center
 	
 }
@@ -13,30 +12,61 @@ body {
 
 .navBarItem {
 	display: inline;
+	color: #d2dae2;
+}
+
+.navBarItem:hover{
+	color: #6c5a89;
 }
 
 .footLink{
 	list-style-type: none;
+	color: #d2dae2;
 }
 
 .footerItem{
 	display: list;
 }
 
-li:hover{
-	text-color: #6c5a89;
-}
-
 footer{
-	padding: 70px;
+	padding: 40px;
+	background-color: #03202e;
 }
 
 .row{
 	background-color: #03202e;
+	padding: 75px;
+	border-radius: 5px;
 }
 
 .logo-image{
 	margin: auto;
-    width: 35%;
-    padding: 10px;
+	width: 34%;
+}
+
+.grad {
+    background: #03202e; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#03202e, #d2dae2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#03202e, #d2dae2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#03202e, #d2dae2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#03202e, #d2dae2); /* Standard syntax */
+}
+
+.imageContainer{
+	padding: 0px;
+}
+
+.searchContainer{
+	padding-left: 70%;
+}
+
+.col-lg-6{
+	margin-left: 55%;
+
+}
+
+.form-control{
+	background-color: #03202e;
+	border-radius: 10px;
+	border-color: #d2dae2;
 }
