@@ -1,6 +1,9 @@
 body {
 	background-color: #080D21;
 }
+.headerPic{
+	background-image: url("/refrence/headerImage.jpg");
+}
 
 .row{
 	background-color: #03202e;
@@ -21,28 +24,33 @@ body {
 	border-radius: 10px;
 	border-color: #d2dae2;
 	font-size: 20px;
-	font-family: "Bodoni 72 Oldstyle", Bodoni, serif;
+	font-family: 'Chivo', sans-serif;
+	font-weight:200;
 }
 
 .blog-title{
 	color: #d2dae2;
-	font-family: "Bodoni 72 Oldstyle", Bodoni, serif;
+	font-family: 'Asul', sans-serif;
 	font-size: 25px;
 	text-align: left;
+	margin-top: 20px;
  }
  
 .card-title{
 	color: #d2dae2;
-	font-family: "Bodoni 72 Oldstyle", Bodoni, serif;
+	font-family: 'Asul', sans-serif;
 	font-size: 30px;
 	text-align: left;
 }
 
 .card-text{
 	color: #d2dae2;
-	font-family: "Bodoni 72 Oldstyle", Bodoni, serif;
-	font-size: 20px;
+	font-family: 'Chivo', sans-serif;
+	font-weight:200;
+	font-size: 18px;
 	text-align: left;
+
+	margin-top: 20px;
 }
 
 .card-image-top{
@@ -86,14 +94,15 @@ footer {
 
 .headerTitle{
 	text-align: center; 
-	font-family: 'Tangerine', cursive;
-	font-size: 130px;
+	font-family: 'Asul', sans-serif;
+	font-size: 80px;
 	color: #d2dae2;
 }
 
 .navItem{
-	font-size: 50px;
-	font-family: 'Tangerine', cursive;
+	font-size: 20px;
+	font-weight:200;
+	font-family: 'Chivo', sans-serif;
 	color: #d2dae2;
 }
 
@@ -104,26 +113,31 @@ footer {
 .nav.navbar-nav li a:hover{
 	color: #6C5A89;
 }
-a.activ{
-	background-color: #03202e;
-	color:#6C5A89;
+.navItemActive{
+	background-color: #080D21;
+	font-size: 20px;
+	font-weight:200;
+	font-family: 'Chivo', sans-serif;
+	color: #6C5A89;
 	
 }
 
 .footerLinks{
 	 list-style: none;
 	 text-align: left;
-	 font-family: "Bodoni 72 Oldstyle", Bodoni, serif;
+	 font-family: 'Chivo', sans-serif;
 	 font-size: 20px;
+	 font-weight:200;
 }
 
 .btnStyle{
 	color: #d2dae2;
 	border-radius: 10px; 
 	border-color: #d2dae2; 
-	font-family: 'Bodoni 72 Oldstyle', Bodoni, serif;
+	font-family: 'Chivo', sans-serif;
+	font-weight: 200;
 	font-size: 20px;
-	margin-top: 20px;	
+	
  }
 
 .btnStyle:hover{
@@ -131,6 +145,23 @@ a.activ{
 	background-color: #d2dae2;
 }
 
-.footerContainer{
-	 list-style: block;
+.form-inline{
+	 margin-left: 50%;
+	 margin-top: -70px;
 }
+
+.form-group{
+	margin-top: 17px;
+}
+
+.jumbotron{
+	background-image: url("/refrence/lofoten-islands-norway.jpg");
+}
+
+/* fonts:
+	font-family: 'Neuton', serif;
+	font-family: 'Mr De Haviland', cursive;
+	
+	font-family: 'Asul', sans-serif;
+	font-family: 'Chivo', sans-serif;
+	*/
