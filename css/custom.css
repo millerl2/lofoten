@@ -93,7 +93,7 @@ footer {
 }
 
 .headerTitle{
-	text-align: center; 
+	text-align: left; 
 	font-family: 'Asul', sans-serif;
 	font-size: 80px;
 	color: #d2dae2;
@@ -156,6 +156,28 @@ footer {
 
 .jumbotron{
 	background-image: url("/refrence/lofoten-islands-norway.jpg");
+}
+
+.aboutHeader{
+	color: #d2dae2;
+	font-family: 'Asul', sans-serif;
+	font-size: 40px;
+	text-align: left;
+	margin-top: -20px;
+
+}
+
+
+.masonry { /* Masonry container */
+    column-count: 4;
+    column-gap: 1em;
+}
+
+.item { /* Masonry bricks or child elements */
+    background-color: #eee;
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
 }
 
 /* fonts:
