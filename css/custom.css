@@ -1,8 +1,10 @@
 body {
 	background-color: #080D21;
 }
-.headerPic{
-	background-image: url("/refrence/headerImage.jpg");
+.header{
+	background-color: #080D21;
+	position: fixed;
+	width: 100%;
 }
 
 .row{
@@ -20,7 +22,7 @@ body {
 }
 
 .form-control{
-	background-color: #03202e;
+	background-color: #080D21;
 	border-radius: 10px;
 	border-color: #d2dae2;
 	font-size: 20px;
@@ -95,7 +97,7 @@ footer {
 .headerTitle{
 	text-align: left; 
 	font-family: 'Asul', sans-serif;
-	font-size: 80px;
+	font-size: 50px;
 	color: #d2dae2;
 }
 
@@ -165,6 +167,9 @@ footer {
 	text-align: left;
 	margin-top: -20px;
 
+}
+.container{
+	width: 100%;
 }
 
 
